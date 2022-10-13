@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "216305056321",
+    "project_id": "qfxclone",
+    "storage_bucket": "qfxclone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216305056321:android:5b520c2058677f1cb8e4c0",
+        "android_client_info": {
+          "package_name": "safaley.qfxclone_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216305056321-eahdg40lvjkgq5914e3p00jbi5rgvlbr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX6c53G0klUZFwvRIWbZ3I87MbC_dxyyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216305056321-eahdg40lvjkgq5914e3p00jbi5rgvlbr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "216305056321-g57s2i9h4i5ta85nkmk60j8uolvvce8s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.safal.qfxcloneFlutter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
