@@ -132,38 +132,3 @@ class MovieStream extends StatelessWidget {
         }));
   }
 }
-
-
-
-// StreamBuilder<QuerySnapshot>(
-//         stream: _firestore.collection('movies').snapshots(),
-//         builder: ((context, snapshot) {
-//           List<Movie> favouriteMovies = [];
-
-//           if (!snapshot.hasData) {
-//             return Center(
-//               child: CircularProgressIndicator(
-//                 backgroundColor: Colors.red,
-//               ),
-//             );
-//           } else {
-//             final movies = snapshot.data!.docs;
-//             for (var movie in movies) {
-//               favouriteMovies.add(
-//                 Movie(imageString: movie['image'], titleString: movie['title']),
-//               );
-//             }
-//             print(favouriteMovies[0].imageString);
-//           }
-//           return ResponsiveGridList(
-//               desiredItemWidth: 150,
-//               minSpacing: 10,
-//               children: favouriteMovies.length != 0
-//                   ? favouriteMovies.map((movie) {
-
-//                     }).toList()
-//                   : [
-//                       Text('No movies here'),
-//                     ]);
-//           ;
-//         }));
